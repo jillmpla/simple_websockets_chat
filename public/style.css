@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Chat Container */
+.container {
+    width: 800px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Message List */
+#messages {
+    height: 700px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#messages li {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    background: #f6f6f6;
+    color: black;
+    border-radius: 6px;
+}
+
+/* Your Own Message Styling */
+.own-message {
+    background: #007bff;
+    color: white;
+    text-align: right;
+}
+
+/* Form Layout */
+#form {
+    display: flex;
+}
+
+/* Message Input */
+#input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #efefef;
+}
+
+/* Send Button */
+#form button {
+    padding: 0 15px;
+    margin-left: 5px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Typing Status and User List */
+#typing-status,
+#user-list {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #messages {
+        height: 60vh;
+    }
+}
+
+

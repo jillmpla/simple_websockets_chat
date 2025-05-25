@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metadata for search engines and browser styling -->
+    <meta name="description" content="A simple real-time chat app built with WebSockets and Socket.IO.">
+    <meta name="keywords" content="chat app, socket.io, websockets, real-time, JavaScript, Node.js">
+    <meta name="theme-color" content="#007bff">
+
+    <title>Simple WebSockets Chat</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load Socket.IO client v4.7.2 for real-time communication with the server -->
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <!-- Live user list display -->
+    <div id="user-list" aria-live="polite"></div>
+
+    <!-- List of chat messages -->
+    <ul id="messages" aria-label="Chat messages"></ul>
+
+    <!-- Typing indicator -->
+    <div id="typing-status" aria-live="polite"></div>
+
+    <!-- Chat input form -->
+    <form id="form" role="form" aria-label="Send a message">
+        <input id="input" type="text" autocomplete="off" placeholder="Type your message..." aria-label="Message input" />
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<!-- Load client-side JS to handle chat functionality -->
+<script src="script.js"></script>
+</body>
+</html>
+
+
