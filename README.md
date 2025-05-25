@@ -20,7 +20,7 @@ A basic real-time chat application built with **Node.js**, **Express**, and **So
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/simple_websockets_chat.git
+git clone https://github.com/jillmpla/simple_websockets_chat.git
 cd simple_websockets_chat
 ```
 
