@@ -1,6 +1,6 @@
 # 💬 simple_websockets_chat
 
-A basic real-time chat application built with **Node.js**, **Express**, and **Socket.IO**. This project is a good foundation for building more advanced chat apps using WebSockets.
+A basic real-time chat application built with **Node.js**, **Express.js**, and **Socket.IO**. This project is a good foundation for building more advanced chat apps using WebSockets.
 
 ---
 
